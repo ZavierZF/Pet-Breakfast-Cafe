@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { ArrowRight, Dog, Leaf, Timer } from 'lucide-react'
+import { ArrowRight, Dog, Leaf, Star, Timer } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { PRODUCTS, formatPrice } from '@/lib/menu'
 
@@ -106,8 +106,9 @@ export function LandingView({ onSelectProduct }: { onSelectProduct: (id: string)
               </p>
             </div>
           </div>
-          <p className="rounded-full bg-foreground px-3 py-1.5 font-mono text-[11px] text-background uppercase">
-            4.9 ★ · 8.2k reviews
+          <p className="flex items-center gap-1.5 rounded-full bg-foreground px-3 py-1.5 font-mono text-[11px] text-background uppercase">
+            <Star className="size-3 fill-current" aria-hidden="true" />
+            4.9 · 8.2k reviews
           </p>
         </div>
       </section>

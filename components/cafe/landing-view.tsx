@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { ArrowRight, Dog, Leaf, Star, Timer } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { PRODUCTS, formatPrice } from '@/lib/menu'
+import { Testimonials } from './testimonials'
 
 const STATS = [
   { icon: Dog, value: '12k+', label: 'Pups served' },
@@ -42,7 +43,7 @@ export function LandingView({ onSelectProduct }: { onSelectProduct: (id: string)
           </div>
         </div>
 
-        <dl className="hidden grid-cols-3 divide-x rounded-xl border bg-background sm:grid">
+        <dl className="hidden grid-cols-3 divide-x rounded-xl border bg-background sm:grid [@media(max-height:760px)]:hidden">
           {STATS.map((stat) => (
             <div key={stat.label} className="flex flex-col gap-0.5 px-4 py-3">
               <dt className="flex items-center gap-1.5 font-mono text-[10px] text-muted-foreground uppercase">
@@ -80,6 +81,8 @@ export function LandingView({ onSelectProduct }: { onSelectProduct: (id: string)
             ))}
           </ul>
         </div>
+
+        <Testimonials />
       </section>
 
       <section

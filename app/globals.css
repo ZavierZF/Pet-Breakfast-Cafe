@@ -66,6 +66,35 @@
   }
 }
 
+@keyframes paw-hop {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  40% {
+    transform: translateY(-6px) scale(1.15);
+  }
+}
+
+@keyframes bell-ring {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(18deg);
+  }
+  40% {
+    transform: rotate(-14deg);
+  }
+  60% {
+    transform: rotate(8deg);
+  }
+  80% {
+    transform: rotate(-4deg);
+  }
+}
+
 @utility bg-dot-grid {
   background-image: radial-gradient(
     color-mix(in oklch, var(--foreground) 12%, transparent) 1px,

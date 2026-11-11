@@ -1,6 +1,7 @@
 import { Check, PawPrint } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { formatPrice, getOrderTotals, type OrderSelection } from '@/lib/menu'
+import { OrderProgress } from './order-progress'
 
 export function SuccessView({
   selection,
@@ -15,7 +16,7 @@ export function SuccessView({
     <div className="flex h-full items-center justify-center">
       <section
         role="status"
-        className="flex w-full max-w-md flex-col items-center gap-4 rounded-2xl border bg-card p-8 text-center"
+        className="flex w-full max-w-md flex-col items-center gap-4 rounded-2xl border bg-card p-6 text-center md:p-8"
       >
         <span className="flex size-14 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
           <Check className="size-6" aria-hidden="true" />
@@ -25,6 +26,7 @@ export function SuccessView({
           Your {product.name} is on the griddle. We&apos;ll have a water bowl ready for your furry
           friend too.
         </p>
+        <OrderProgress />
         <dl className="grid w-full grid-cols-2 divide-x rounded-xl border bg-background font-mono text-xs uppercase">
           <div className="p-3">
             <dt className="text-muted-foreground">Order</dt>

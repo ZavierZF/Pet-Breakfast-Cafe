@@ -19,7 +19,7 @@ export function LandingView({ onSelectProduct }: { onSelectProduct: (id: string)
             Now serving · Order ahead
           </p>
           <h1 className="text-3xl leading-[1.05] font-semibold tracking-tight text-balance md:text-5xl xl:text-6xl">
-            Breakfast for you <span className="text-primary">&amp; your best friend.</span>
+            Welcome to <span className="text-primary">My Store</span>
           </h1>
           <p className="max-w-md text-sm leading-relaxed text-pretty text-muted-foreground md:text-base">
             A cozy neighborhood cafe where every table is pet-friendly. Order your plate (and theirs)

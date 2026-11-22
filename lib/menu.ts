@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     description:
       'Three fluffy buttermilk pancakes, whipped honey butter, Vermont maple and a scatter of fresh berries. Our most-ordered plate since day one.',
     price: 1400,
-    image: '/images/pancakes.png',
+    image: '/images/pancakes.webp',
     tags: ['Vegetarian', 'Bestseller'],
     rating: 4.9,
     reviews: 2184,
@@ -42,7 +42,7 @@ export const PRODUCTS: Product[] = [
     description:
       'Smashed avocado on house-baked sourdough with a soft poached egg, chili crunch and microgreens. Bright, filling and ready in minutes.',
     price: 1300,
-    image: '/images/avocado-toast.png',
+    image: '/images/avocado-toast.webp',
     tags: ['High protein', 'Chef pick'],
     rating: 4.8,
     reviews: 1420,
@@ -54,7 +54,7 @@ export const PRODUCTS: Product[] = [
     description:
       'Double-shot espresso with silky oat milk and our signature paw-print latte art. Roasted locally, poured with love.',
     price: 600,
-    image: '/images/latte.png',
+    image: '/images/latte.webp',
     tags: ['Vegan', 'Hot'],
     rating: 4.9,
     reviews: 3310,
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
     description:
       'Vet-approved bowl of plain scrambled egg, roasted sweet potato and blueberries, finished with a house-baked peanut biscuit. No salt, no seasoning.',
     price: 800,
-    image: '/images/pup-plate.png',
+    image: '/images/pup-plate.webp',
     tags: ['Dog-safe', 'Vet-approved'],
     rating: 5.0,
     reviews: 968,

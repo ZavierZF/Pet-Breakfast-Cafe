@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: 'Pawfee — Breakfast for humans & hounds',
   description:
     'A cozy, animal-friendly breakfast cafe. Order pancakes, lattes and pup plates online for pickup or dine-in with your dog.',
-  generator: 'v0.app',
   icons: {
     icon: [
       { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },

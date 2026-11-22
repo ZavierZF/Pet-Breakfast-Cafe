@@ -20,7 +20,7 @@ export function LandingView({ onSelectProduct }: { onSelectProduct: (id: string)
             Now serving · Order ahead
           </p>
           <h1 className="text-3xl leading-[1.05] font-semibold tracking-tight text-balance md:text-5xl xl:text-6xl">
-            Welcome to <span className="text-primary">My Store</span>
+            Breakfast for humans <span className="text-primary">&amp; hounds</span>
           </h1>
           <p className="max-w-md text-sm leading-relaxed text-pretty text-muted-foreground md:text-base">
             A cozy neighborhood cafe where every table is pet-friendly. Order your plate (and theirs)
@@ -90,7 +90,7 @@ export function LandingView({ onSelectProduct }: { onSelectProduct: (id: string)
         className="relative hidden min-h-0 overflow-hidden rounded-2xl border lg:block"
       >
         <Image
-          src="/images/hero.png"
+          src="/images/hero.webp"
           alt="A golden retriever sitting beside a sunny cafe table with a latte and pancakes"
           fill
           priority
